@@ -1,0 +1,14 @@
+function calculator (a,b) {
+    this.add=function() {
+      return a+b;
+    };
+    this.subtract=function() {
+        return a-b;
+    };
+    this.divide=function() {
+        return a/b;
+    };
+    this.multiply=function() {
+        return a*b;
+    }
+};
